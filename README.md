@@ -1,3 +1,3 @@
-# New Repo
+# Sololearn
 
-This is the new repo
+In this repository I save problems of platform Sololearn, that I solved:)
