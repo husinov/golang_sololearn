@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 //define the download() function
-func download(s int, c chan int) {
+func download(to int, c chan int) {
 	var sum int
 	sum = 0
-	for i := 0; i <= s; i++ {
+	for i := 0; i <= to; i++ {
 		sum += i
 	}
 	c <- sum
