@@ -7,18 +7,18 @@ type Timer struct {
 	value int
 }
 
-func (t *Timer) tick() {
-	t.value++
-	fmt.Println(t.value)
+func (time *Timer) tick() {
+	time.value++
+	fmt.Println(time.value)
 
 }
 func main() {
 	var x int
 	fmt.Scanln(&x)
 
-	t := Timer{"timer1", 0}
+	time := Timer{"timer1", 0}
 
 	for i := 0; i < x; i++ {
-		t.tick()
+		time.tick()
 	}
 }
